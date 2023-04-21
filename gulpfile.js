@@ -36,7 +36,7 @@ function views() {
 
 function styles() {
   return src('src/styles/styles.scss')
-  .pipe(sass().on('error', sass.logError))
+  .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
   .pipe(autoprefixer({ grid: true }))
   .pipe(gcssmq())
   .pipe(dest('public/css/'))
