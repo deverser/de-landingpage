@@ -1,0 +1,28 @@
+.container {
+  width: 1162px;
+  margin: 0 auto;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  width: 1200px;
+}
+
+.header .logo {
+  display: block;
+}
+
+.header .hamburger {
+  width: 24px;
+}
+
+.header .hamburger span {
+  display: block;
+  margin-bottom: 4px;
+  width: 100%;
+  height: 3px;
+  background: #356ead;
+}

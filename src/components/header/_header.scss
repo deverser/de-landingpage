@@ -1,0 +1,25 @@
+.header {
+	&__menu {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 40px auto;
+		width: 1200px;
+	}
+
+	.logo {
+		display: block;
+	}
+
+	.hamburger {
+		width: 24px;
+
+		span {
+			display: block;
+			margin-bottom: 4px;
+			width: 100%;
+			height: 3px;
+			background: #356EAD;
+		}
+	}
+}
