@@ -1,24 +1,37 @@
 {
-  "name": "de-landingpage",
-  "version": "1.0.0",
-  "description": "",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Malaev A.S.",
-  "license": "ISC",
-  "devDependencies": {
-    "autoprefixer": "^10.4.14",
-    "browser-sync": "^2.29.1",
-    "del": "^6.1.1",
-    "eslint": "^8.38.0",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^8.0.0",
-    "gulp-cli": "^2.3.0",
-    "gulp-group-css-media-queries": "^1.2.2",
-    "gulp-pug": "^5.0.0",
-    "gulp-sass": "^5.1.0",
-    "sass": "^1.62.0"
-  }
+	"name": "de-landingpage",
+	"version": "1.0.0",
+	"description": "",
+	"main": "gulpfile.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Malaev A.S.",
+	"license": "ISC",
+	"devDependencies": {
+		"autoprefixer": "^10.4.14",
+		"browser-sync": "^2.29.1",
+		"del": "^6.1.1",
+		"eslint": "^8.38.0",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^8.0.0",
+		"gulp-cli": "^2.3.0",
+		"gulp-group-css-media-queries": "^1.2.2",
+		"gulp-pug": "^5.0.0",
+		"gulp-sass": "^5.1.0",
+		"sass": "^1.62.0"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 3 chrome versions",
+			"last 3 firefox versions",
+			"last 3 safari versions",
+			"last 3 ie versions"
+		]
+	}
 }
