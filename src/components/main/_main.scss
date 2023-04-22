@@ -20,5 +20,15 @@ main {
 			letter-spacing: 0.04em;
 			color: #1F3F68;
 		}
+
+		&__descr {
+			width: 425px;
+			font-family: 'Gilroy';
+			font-size: 16px;
+			line-height: 26px;
+			letter-spacing: 0.05em;
+			color: #1F3F68;
+			opacity: 0.6;
+		}
 	}
 }

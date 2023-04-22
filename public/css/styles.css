@@ -6,6 +6,12 @@
   src: url("//db.onlinewebfonts.com/t/d1243736bfe07b546f8f1e54e7804afb.eot?#iefix") format("embedded-opentype"),url("//db.onlinewebfonts.com/t/d1243736bfe07b546f8f1e54e7804afb.woff2") format("woff2"),url("//db.onlinewebfonts.com/t/d1243736bfe07b546f8f1e54e7804afb.woff") format("woff"),url("//db.onlinewebfonts.com/t/d1243736bfe07b546f8f1e54e7804afb.ttf") format("truetype"),url("//db.onlinewebfonts.com/t/d1243736bfe07b546f8f1e54e7804afb.svg#Galien") format("svg");
 }
 
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/gilroy-regular.eot");
+  src: url("../fonts/gilroy-regular.eot?#iefix") format("embedded-opentype"),url("../fonts/gilroy-regular.woff2") format("woff2"),url("../fonts/gilroy-regular.woff") format("woff"),url("../fonts/gilroy-regular.ttf") format("truetype"),url("../fonts/gilroy-regular.svg#gilroy-regular") format("svg");
+}
+
 .container {
   width: 1162px;
   margin: 0 auto;
@@ -62,4 +68,14 @@ main {
   line-height: 74px;
   letter-spacing: .04em;
   color: #1f3f68;
+}
+
+.promo-info__descr {
+  width: 425px;
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: .05em;
+  color: #1f3f68;
+  opacity: .6;
 }

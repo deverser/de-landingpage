@@ -73,7 +73,7 @@ function copyStyles() {
 }
 
 function copyFonts() {
-  return src('./src/fonts/**/*')
+  return src('./src/fonts/*')
   .pipe(dest('./public/fonts/'));
 }
 
