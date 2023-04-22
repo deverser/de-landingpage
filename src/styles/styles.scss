@@ -1,6 +1,12 @@
+@import 'fonts';
+
 .container {
 	width: 1162px;
 	margin: 0 auto;
+
+	&_promo {
+		display: flex;
+	}
 }
 
 

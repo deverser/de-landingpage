@@ -1,0 +1,24 @@
+main {
+	width: 1366px;
+	margin: 0 auto;
+}
+
+.promo {
+	min-height: 680px;
+	background: linear-gradient(0deg, #98C3E8 -237.16%, rgba(152, 195, 232, 0) 58.12%);
+
+	&-info {
+		min-height: 389px;
+		margin-left: 212px;
+		width: 510px;
+
+		&__title {
+			width: 510px;
+			font-family: 'Galien';
+			font-size: 64px;
+			line-height: 74px;
+			letter-spacing: 0.04em;
+			color: #1F3F68;
+		}
+	}
+}
