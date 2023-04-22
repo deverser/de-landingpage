@@ -8,6 +8,7 @@ main {
 	background: linear-gradient(0deg, #98C3E8 -237.16%, rgba(152, 195, 232, 0) 58.12%);
 
 	&-info {
+		margin-top: 101px;
 		min-height: 389px;
 		margin-left: 212px;
 		width: 510px;
@@ -22,6 +23,7 @@ main {
 		}
 
 		&__descr {
+			margin-top: 32px;
 			width: 425px;
 			font-family: 'Gilroy';
 			font-size: 16px;
@@ -30,5 +32,10 @@ main {
 			color: #1F3F68;
 			opacity: 0.6;
 		}
+	}
+
+	&-image {
+		position: relative;
+		right: 51px;
 	}
 }
