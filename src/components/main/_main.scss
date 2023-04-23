@@ -39,3 +39,33 @@ main {
 		right: 51px;
 	}
 }
+
+.services {
+	padding: 180px 212px 212px 212px;
+
+	&__card {
+		width: 380px;
+		height: 525px;
+		color: beige;
+		background-color: blue;
+
+		&1 {
+			grid-area: services_card1;
+		}
+
+		&2 {
+			grid-area: services_card2;
+			justify-self: end;
+		}
+
+		&3 {
+			grid-area: services_card3;
+		}
+	}
+}
+
+.title {
+	&_services {
+		grid-area: title_services;
+	}
+}

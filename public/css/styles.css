@@ -19,6 +19,24 @@
 
 .container_promo {
   display: flex;
+  justify-content: center;
+}
+
+.container_services {
+  display: grid;
+  gap: 100px;
+  grid-template-areas: "title_services services_card1" "services_card2 services_card1" "services_card2 services_card3" ". services_card3";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.title {
+  font-family: "Gilroy";
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: .05em;
+  color: #316099;
+  width: 358px;
 }
 
 .button {
@@ -101,4 +119,43 @@ main {
 .promo-image {
   position: relative;
   right: 51px;
+}
+
+.services {
+  padding: 180px 212px 212px 212px;
+}
+
+.services__card {
+  width: 380px;
+  height: 525px;
+  color: beige;
+  background-color: blue;
+}
+
+.services__card1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 3;
+  grid-area: services_card1;
+}
+
+.services__card2 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  grid-area: services_card2;
+  justify-self: end;
+}
+
+.services__card3 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 3;
+  grid-area: services_card3;
+}
+
+.title_services {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: title_services;
 }

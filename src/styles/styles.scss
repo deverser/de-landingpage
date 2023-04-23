@@ -6,9 +6,23 @@
 
 	&_promo {
 		display: flex;
+		justify-content: center;
+	}
+
+	&_services {
+		display: grid;
+		gap: 100px;
+		grid-template-areas: "title_services services_card1"
+			"services_card2 services_card1"
+			"services_card2 services_card3"
+			". services_card3";
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+
 	}
 }
 
+@import '../components/title/title';
 @import '../components/button/button';
 @import '../components/header/header';
 @import '../components/main/main';
