@@ -44,13 +44,24 @@ main {
 	padding: 180px 212px 212px 212px;
 
 	&__card {
+		padding: 0 48px 48px 48px;
 		width: 380px;
 		height: 525px;
-		color: beige;
-		background-color: blue;
+		background: #FFFFFF;
+		box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+		border-radius: 10px;
 
 		&1 {
 			grid-area: services_card1;
+
+			& img {
+				position: relative;
+				bottom: 70px;
+			}
+
+			.title_card {
+				margin-top: -25px;
+			}
 		}
 
 		&2 {
@@ -61,6 +72,98 @@ main {
 		&3 {
 			grid-area: services_card3;
 		}
+
+		&__img {
+			display: block;
+			margin: 0 auto;
+			margin-top: 48px;
+		}
+
+		&__descr {
+			margin-top: 16px;
+			font-family: 'Gilroy';
+			font-size: 16px;
+			line-height: 26px;
+			letter-spacing: 0.05em;
+			color: #1F3F68;
+			opacity: 0.6;
+		}
+
+		&__link {
+			margin-top: 32px;
+			display: flex;
+			align-items: baseline;
+			font-family: 'Gilroy';
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 30px;
+			letter-spacing: 0.05em;
+			color: #5A98D0;
+			text-decoration: none;
+		}
+	}
+}
+
+.arrow {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	width: 16px;
+	height: 16px;
+	margin-left: 24px;
+	padding: 4px;
+
+	div {
+		position: relative;
+		top: 6px;
+		width: 16px;
+		height: 2px;
+		background-color: #5A98D0;
+		;
+		box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+		left: 0;
+		display: block;
+
+		&::after {
+			content: '';
+			position: absolute;
+			width: 12px;
+			height: 2px;
+			top: -4px;
+			right: -1px;
+			background-color: #5A98D0;
+			transform: rotate(45deg);
+		}
+
+		&::before {
+			content: '';
+			position: absolute;
+			width: 12px;
+			height: 2px;
+			top: 4px;
+			right: -1px;
+			background-color: #5A98D0;
+			box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+			transform: rotate(-45deg);
+		}
+	}
+
+	&:hover {
+		animation: arrow 1s linear infinite;
+	}
+}
+
+@keyframes arrow {
+	0% {
+		left: 0;
+	}
+
+	50% {
+		left: 10px;
+	}
+
+	100% {
+		left: 0;
 	}
 }
 

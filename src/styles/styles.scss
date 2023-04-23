@@ -1,5 +1,9 @@
 @import 'fonts';
 
+* {
+	box-sizing: border-box;
+}
+
 .container {
 	width: 1162px;
 	margin: 0 auto;
