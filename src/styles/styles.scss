@@ -5,12 +5,12 @@
 }
 
 .container {
-	width: 1162px;
+	width: 940px;
 	margin: 0 auto;
 
 	&_promo {
 		display: flex;
-		justify-content: center;
+		justify-content: flex-start;
 	}
 
 	&_services {
@@ -23,6 +23,15 @@
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr 1fr 1fr 1fr;
 
+	}
+
+	&_clients {
+		display: grid;
+		grid-template-areas: "title descr descr descr"
+			"client1 client2 client3 client4"
+			"client5 client6 client7 more";
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: 203px 128px 128px;
 	}
 }
 
