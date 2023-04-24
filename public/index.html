@@ -71,7 +71,8 @@
           <div class="footer__intro">
             <h2 class="title title_footer">Intersted to work with our team?</h2>
             <p class="footer__intro-descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-          </div><a class="button button_footer" href="#">Let's Talk</a>
+          </div>
+          <button class="button button_footer" onclick="openModal()">Let's Talk</button>
         </div>
         <hr class="footer__divider">
         <div class="footer__info"> 
@@ -101,6 +102,20 @@
         <div class="footer__copyright">2019 © Afrianska. All rights reserved.</div>
       </div>
     </footer>
+    <div class="modal" id="formModal">
+      <div class="modal__content"><span class="close" onclick="closeModal()">&times;</span>
+        <h3 class="modal__title">Send Us Message</h3>
+        <form id="inputForm" onsubmit="submitForm()">
+          <label class="name__label" for="fullName">Full Name</label>
+          <input class="input" id="fullName" type="text" name="fullName" placeholder="Your Name" required="">
+          <label class="name__label" for="email">Email</label>
+          <input class="input" id="email" type="email" name="email" placeholder="Your Email" required="">
+          <label class="name__label" for="message">Message</label>
+          <textarea class="input input_message" id="message" name="message" placeholder="Your Message" required=""></textarea>
+          <input class="modal__submit" type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
     <script src="js/script.js"> </script>
   </body>
 </html>

@@ -1,0 +1,12 @@
+#formModal.modal
+    .modal__content
+      span.close(onclick='closeModal()') &times;
+      h3.modal__title Send Us Message
+      form#inputForm(onsubmit='submitForm()')
+        label.name__label(for='fullName') Full Name
+        input#fullName.input(type='text' name='fullName' placeholder='Your Name' required='')
+        label.name__label(for='email') Email
+        input#email.input(type='email' name='email' placeholder='Your Email' required='')
+        label.name__label(for='message') Message
+        textarea#message.input.input_message(name='message' placeholder='Your Message' required='')
+        input.modal__submit(type='submit' value='Submit')

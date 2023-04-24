@@ -1,0 +1,108 @@
+$color_1: #1F3F68;
+$color_2: #FFFFFF;
+$color_3: #aaa;
+$color_4: black;
+$background-color_1: rgba(0, 0, 0, 0.4);
+$background-color_2: #FFFFFF;
+$background-color_3: #5A98D0;
+$background-color_4: #356EAD;
+$border-color_1: #5A98D0;
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: $background-color_1;
+}
+
+.modal__content {
+	background-color: $background-color_2;
+	margin: 15% auto;
+	padding: 56px;
+	border: 1px solid #888;
+	width: 540px;
+	height: 800px;
+	box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+	border-radius: 10px;
+}
+
+.modal__title {
+	margin-bottom: 16px;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: $color_1;
+}
+
+.modal__submit {
+	margin-top: 72px;
+	width: 428px;
+	height: 72px;
+	filter: drop-shadow(5px 10px 20px rgba(16, 112, 177, 0.2));
+	background-color: $background-color_3;
+	border-color: $border-color_1;
+	box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+	border-radius: 10px;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	color: $color_2;
+
+	&:hover {
+		background-color: $background-color_4;
+	}
+}
+
+.name__label {
+	margin-bottom: 8px;
+	margin-top: 32px;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.04em;
+	color: $color_1;
+	opacity: 0.8;
+}
+
+.input {
+	width: 428px;
+	height: 72px;
+	opacity: 0.4;
+	border: 1px solid #356EAD;
+	border-radius: 10px;
+}
+
+.input_message {
+	height: 144px;
+}
+
+#inputForm {
+	display: flex;
+	flex-direction: column;
+}
+
+.close {
+	color: $color_3;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+
+	&:hover {
+		color: $color_4;
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+	&:focus {
+		color: $color_4;
+		text-decoration: none;
+		cursor: pointer;
+	}
+}
