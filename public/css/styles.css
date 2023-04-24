@@ -16,6 +16,10 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 100vh;
+}
+
 .container {
   width: 940px;
   margin: 0 auto;
@@ -308,7 +312,7 @@ main {
 .clients {
   padding-top: 96px;
   padding-bottom: 125px;
-  height: 680px;
+  height: 1549px;
   border-radius: 200px 0px 0px 0px;
   background: #5a98d0;
 }
@@ -371,4 +375,15 @@ main {
   display: block;
   margin-left: 15px;
   text-transform: none;
+}
+
+.footer {
+  position: relative;
+  left: -48px;
+  bottom: 869px;
+  margin: 0 auto;
+  width: 1270px;
+  height: 869px;
+  background-color: #316099;
+  border-radius: 0px 200px 0px 0px;
 }
