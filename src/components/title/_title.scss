@@ -21,4 +21,16 @@
 		color: #FFFFFF;
 		grid-area: title;
 	}
+
+	&_footer {
+		color: #FFFFFF;
+		width: 317px;
+	}
+
+	&_contacts {
+		margin-left: 15px;
+		font-size: 28px;
+		letter-spacing: 0.02em;
+		color: #FFFFFF;
+	}
 }

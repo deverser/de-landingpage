@@ -1,4 +1,7 @@
 .button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	margin-top: 71px;
 	width: 220px;
 	height: 56px;
@@ -12,4 +15,14 @@
 	background: #5A98D0;
 	box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
 	border-radius: 10px;
+	text-decoration: none;
+
+	&_footer {
+		box-shadow: none;
+		margin-top: 0;
+
+		&:hover {
+			box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+		}
+	}
 }

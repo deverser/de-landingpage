@@ -1,5 +1,7 @@
 .footer {
 	position: relative;
+	padding-top: 91px;
+	padding-bottom: 64px;
 	left: -48px;
 	bottom: 869px;
 	margin: 0 auto;
@@ -7,4 +9,44 @@
 	height: 869px;
 	background-color: #316099;
 	border-radius: 0px 200px 0px 0px;
+
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__intro {
+		&-descr {
+			margin-top: 32px;
+			width: 460px;
+			font-family: 'Gilroy';
+			font-size: 16px;
+			line-height: 26px;
+			letter-spacing: 0.05em;
+			color: #FFFFFF;
+			opacity: 0.6;
+		}
+	}
+
+	&__divider {
+		display: block;
+		position: absolute;
+		left: 0;
+		margin: 96px 0;
+		width: 1105px;
+		opacity: 0.4;
+		border: 1px solid #FFFFFF;
+	}
+
+	&__info {
+		margin-top: 192px;
+
+		&-contacts {
+			&__logo {
+				display: flex;
+				text-decoration: none;
+			}
+		}
+	}
 }
