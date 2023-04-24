@@ -20,11 +20,6 @@
 		&-descr {
 			margin-top: 32px;
 			width: 460px;
-			font-family: 'Gilroy';
-			font-size: 16px;
-			line-height: 26px;
-			letter-spacing: 0.05em;
-			color: #FFFFFF;
 			opacity: 0.6;
 		}
 	}
@@ -40,13 +35,67 @@
 	}
 
 	&__info {
+		display: flex;
+		justify-content: space-between;
 		margin-top: 192px;
 
 		&-contacts {
-			&__logo {
+			& span {
+				margin-right: 16px;
+			}
+
+			&-logo {
 				display: flex;
 				text-decoration: none;
 			}
+
+			&-text {
+				display: flex;
+				margin-top: 24px;
+				width: 299px;
+			}
+
+			&-tel,
+			&-email {
+				display: block;
+				margin-top: 24px;
+				color: #FFFFFF;
+				text-decoration: none;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
 		}
+
+		&-links,
+		&-social {
+			font-size: 20px;
+			line-height: 30px;
+
+			& ul {
+				margin-top: 32px;
+
+				& li {
+					margin-bottom: 16px;
+
+					& a {
+						font-size: 16px;
+						line-height: 26px;
+						color: #FFFFFF;
+						text-decoration: none;
+
+						&:hover {
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&__copyright {
+		margin-top: 52px;
+		opacity: 0.4;
 	}
 }

@@ -1,8 +1,6 @@
 .title {
-	font-family: 'Gilroy';
 	font-size: 36px;
 	line-height: 46px;
-	letter-spacing: 0.05em;
 	color: #316099;
 
 	&_services {
@@ -18,13 +16,13 @@
 	}
 
 	&_clients {
-		color: #FFFFFF;
 		grid-area: title;
+		color: #FFFFFF;
 	}
 
 	&_footer {
-		color: #FFFFFF;
 		width: 317px;
+		color: #FFFFFF;
 	}
 
 	&_contacts {

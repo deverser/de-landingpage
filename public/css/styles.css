@@ -18,6 +18,11 @@
 
 body {
   height: 100vh;
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: .05em;
+  color: #fff;
 }
 
 .container {
@@ -46,10 +51,8 @@ body {
 }
 
 .title {
-  font-family: "Gilroy";
   font-size: 36px;
   line-height: 46px;
-  letter-spacing: .05em;
   color: #316099;
 }
 
@@ -67,13 +70,13 @@ body {
 .title_clients {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
-  color: #fff;
   grid-area: title;
+  color: #fff;
 }
 
 .title_footer {
-  color: #fff;
   width: 317px;
+  color: #fff;
 }
 
 .title_contacts {
@@ -163,10 +166,6 @@ main {
 .promo-info__descr {
   margin-top: 32px;
   width: 425px;
-  font-family: "Gilroy";
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: .05em;
   color: #1f3f68;
   opacity: .6;
 }
@@ -228,10 +227,6 @@ main {
 
 .services__card__descr {
   margin-top: 16px;
-  font-family: "Gilroy";
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: .05em;
   color: #1f3f68;
   opacity: .6;
 }
@@ -240,11 +235,9 @@ main {
   margin-top: 32px;
   display: flex;
   align-items: baseline;
-  font-family: "Gilroy";
   font-weight: 700;
   font-size: 14px;
   line-height: 30px;
-  letter-spacing: .05em;
   color: #5a98d0;
   text-decoration: none;
 }
@@ -349,11 +342,6 @@ main {
   grid-area: descr;
   padding-left: 97px;
   padding-right: 50px;
-  font-family: "Gilroy";
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: .05em;
-  color: #fff;
   opacity: .6;
 }
 
@@ -379,7 +367,6 @@ main {
   padding: 40px;
   text-transform: uppercase;
   text-decoration: none;
-  font-family: "Gilroy";
   font-size: 20px;
   line-height: 46px;
   letter-spacing: .02em;
@@ -424,11 +411,6 @@ main {
 .footer__intro-descr {
   margin-top: 32px;
   width: 460px;
-  font-family: "Gilroy";
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: .05em;
-  color: #fff;
   opacity: .6;
 }
 
@@ -443,10 +425,69 @@ main {
 }
 
 .footer__info {
+  display: flex;
+  justify-content: space-between;
   margin-top: 192px;
 }
 
-.footer__info-contacts__logo {
+.footer__info-contacts span {
+  margin-right: 16px;
+}
+
+.footer__info-contacts-logo {
   display: flex;
   text-decoration: none;
+}
+
+.footer__info-contacts-text {
+  display: flex;
+  margin-top: 24px;
+  width: 299px;
+}
+
+.footer__info-contacts-tel,
+.footer__info-contacts-email {
+  display: block;
+  margin-top: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__info-contacts-tel:hover,
+.footer__info-contacts-email:hover {
+  text-decoration: underline;
+}
+
+.footer__info-links,
+.footer__info-social {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer__info-links ul,
+.footer__info-social ul {
+  margin-top: 32px;
+}
+
+.footer__info-links ul li,
+.footer__info-social ul li {
+  margin-bottom: 16px;
+}
+
+.footer__info-links ul li a,
+.footer__info-social ul li a {
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__info-links ul li a:hover,
+.footer__info-social ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer__copyright {
+  margin-top: 52px;
+  opacity: .4;
 }

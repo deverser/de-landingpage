@@ -23,10 +23,6 @@ main {
 		&__descr {
 			margin-top: 32px;
 			width: 425px;
-			font-family: 'Gilroy';
-			font-size: 16px;
-			line-height: 26px;
-			letter-spacing: 0.05em;
 			color: #1F3F68;
 			opacity: 0.6;
 		}
@@ -79,10 +75,6 @@ main {
 
 		&__descr {
 			margin-top: 16px;
-			font-family: 'Gilroy';
-			font-size: 16px;
-			line-height: 26px;
-			letter-spacing: 0.05em;
 			color: #1F3F68;
 			opacity: 0.6;
 		}
@@ -91,11 +83,9 @@ main {
 			margin-top: 32px;
 			display: flex;
 			align-items: baseline;
-			font-family: 'Gilroy';
 			font-weight: 700;
 			font-size: 14px;
 			line-height: 30px;
-			letter-spacing: 0.05em;
 			color: #5A98D0;
 			text-decoration: none;
 		}
@@ -182,11 +172,6 @@ main {
 		grid-area: descr;
 		padding-left: 97px;
 		padding-right: 50px;
-		font-family: 'Gilroy';
-		font-size: 16px;
-		line-height: 26px;
-		letter-spacing: 0.05em;
-		color: #FFFFFF;
 		opacity: 0.6;
 	}
 
@@ -214,7 +199,6 @@ main {
 			padding: 40px;
 			text-transform: uppercase;
 			text-decoration: none;
-			font-family: 'Gilroy';
 			font-size: 20px;
 			line-height: 46px;
 			letter-spacing: 0.02em;
