@@ -27,6 +27,17 @@ function closeModal() {
 }
 
 
+let popupMsg = document.getElementById("popup");
+// функция для отображения всплывающего окна
+function showMessage() {
+	popupMsg.style.display = "block";
+	// скрываем окно через 3 секунды
+	setTimeout(function () {
+		popupMsg.style.display = "none";
+	}, 5000);
+}
+
+
 // Валидация формы 
 const fullName = document.getElementById('fullName');
 const email = document.getElementById('email');
@@ -75,6 +86,7 @@ function submitForm() {
 		xhr.onload = function () {
 			if (xhr.status === 200) {
 				closeModal();
+				showMessage();
 			} else {
 				document.getElementById("error_msg").innerHTML = 'Ошибка при отправке формы Error: ' + xhr.status;
 			}

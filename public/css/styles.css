@@ -391,6 +391,19 @@ main {
   text-transform: none;
 }
 
+#popup {
+  position: fixed;
+  top: 48px;
+  left: 33%;
+  width: 33%;
+  background-color: #5bf15b;
+  color: #373535;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  display: none;
+}
+
 .footer {
   position: relative;
   padding-top: 91px;

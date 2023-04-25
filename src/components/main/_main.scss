@@ -336,3 +336,16 @@ main {
 		}
 	}
 }
+
+#popup {
+	position: fixed;
+	top: 48px;
+	left: 33%;
+	width: 33%;
+	background-color: rgb(91, 241, 91);
+	color: rgb(55, 53, 53);
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	display: none;
+}
