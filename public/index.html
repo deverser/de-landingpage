@@ -107,12 +107,11 @@
         <h3 class="modal__title">Send Us Message</h3>
         <form id="inputForm" onsubmit="submitForm()">
           <label class="name__label" for="fullName">Full Name</label>
-          <input class="input" id="fullName" type="text" name="fullName" placeholder="Your Name" required="">
+          <input class="input" id="fullName" type="text" name="fullName" placeholder="Your Name"><span class="error" id="fullNameError"></span>
           <label class="name__label" for="email">Email</label>
-          <input class="input" id="email" type="email" name="email" placeholder="Your Email" required="">
+          <input class="input" id="email" type="email" name="email" placeholder="Your Email"><span class="error" id="emailError"></span>
           <label class="name__label" for="message">Message</label>
-          <textarea class="input input_message" id="message" name="message" placeholder="Your Message" required=""></textarea>
-          <div id="error_msg"></div>
+          <textarea class="input input_message" id="message" name="message" placeholder="Your Message"></textarea><span class="error" id="messageError"></span><span class="error" id="error_msg"></span>
           <input class="modal__submit" type="submit" value="Submit">
         </form>
       </div>
