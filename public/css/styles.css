@@ -594,6 +594,10 @@ main {
   cursor: pointer;
 }
 
+#error_msg {
+  color: red;
+}
+
 @media screen and (max-width: 996px) {
   .container {
     width: 100%;

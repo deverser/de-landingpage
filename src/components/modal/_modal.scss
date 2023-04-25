@@ -2,6 +2,7 @@ $color_1: #1F3F68;
 $color_2: #FFFFFF;
 $color_3: #aaa;
 $color_4: black;
+$color_5: red;
 $background-color_1: rgba(0, 0, 0, 0.4);
 $background-color_2: #FFFFFF;
 $background-color_3: #5A98D0;
@@ -105,4 +106,8 @@ $border-color_1: #5A98D0;
 		text-decoration: none;
 		cursor: pointer;
 	}
+}
+
+#error_msg {
+	color: $color_5;
 }

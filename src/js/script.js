@@ -10,6 +10,7 @@ function closeModal() {
 	modal.style.display = "none";
 }
 
+
 function submitForm() {
 	event.preventDefault();
 	const form = document.getElementById("inputForm");
@@ -18,10 +19,9 @@ function submitForm() {
 	xhr.open("POST", "submit.php", true);
 	xhr.onload = function () {
 		if (xhr.status === 200) {
-			alert(xhr.responseText);
 			closeModal();
 		} else {
-			alert('Ошибка при отправке формы Error: ' + xhr.status);
+			document.getElementById("error_msg").innerHTML = 'Ошибка при отправке формы Error: ' + xhr.status;
 		}
 	};
 	xhr.send(formData);
