@@ -3,7 +3,9 @@
 	* Запуск проекта в dev-режиме из консоли командой gulp.
 	* Запуск прод-версии - index.html в папке public.
 
-1. Верстка фрейма "Homepage" - 7,4 часа.
-2. Верстка и открытие модального окна - 2,5 часа.
-3. Валидация и отправка формы - 2 часа.
-4. Попап с текстом - 40 минут.
+
+Деплой проекта можно посмотреть [здесь](https://deverser.github.io/de-landingpage/public/index.html)
+
+Ссылка на исходный код проекта на [Github](https://github.com/deverser/de-landingpage)
+
+Ссылка на мой [профиль](https://github.com/deverser) Github
