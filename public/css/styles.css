@@ -507,6 +507,7 @@ main {
 }
 
 .modal__content {
+  position: relative;
   background-color: #fff;
   margin: 5% auto;
   padding: 56px;
@@ -527,6 +528,8 @@ main {
 }
 
 .modal__submit {
+  position: absolute;
+  bottom: 34px;
   margin-top: 72px;
   width: 428px;
   height: 72px;

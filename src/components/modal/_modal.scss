@@ -22,6 +22,7 @@ $border-color_1: #5A98D0;
 }
 
 .modal__content {
+	position: relative;
 	background-color: $background-color_2;
 	margin: 5% auto;
 	padding: 56px;
@@ -42,6 +43,8 @@ $border-color_1: #5A98D0;
 }
 
 .modal__submit {
+	position: absolute;
+	bottom: 34px;
 	margin-top: 72px;
 	width: 428px;
 	height: 72px;
