@@ -593,3 +593,168 @@ main {
   text-decoration: none;
   cursor: pointer;
 }
+
+@media screen and (max-width: 996px) {
+  .container {
+    width: 100%;
+  }
+
+  .container_promo {
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .container_services {
+    grid-template-areas: "title_services" "services_card1" "services_card2" "services_card3";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr;
+    justify-items: center;
+  }
+
+  .container_clients {
+    grid-template-areas: "title descr" "client1 client2" "client3 client4" "client5 client6" "client7 more";
+    width: 90%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto auto auto;
+    align-items: center;
+    justify-items: stretch;
+  }
+
+  .title_footer {
+    text-align: center;
+    margin-left: 80px;
+  }
+
+  .title_clients {
+    text-align: center;
+  }
+
+  .button {
+    margin-bottom: 71px;
+  }
+
+  .button_footer {
+    margin: 46px 0;
+  }
+
+  .header__menu {
+    width: 90%;
+  }
+
+  .services__card1 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+
+  .services__card2 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+
+  .services__card3 {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+
+  .title_services {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+
+  .title_clients {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+
+  .clients__descr {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .promo-image {
+    right: 0;
+  }
+
+  .promo-info {
+    margin-top: 43px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services {
+    padding: 105px 212px;
+  }
+
+  .clients {
+    height: 1773px;
+    padding-top: 79px;
+    border-radius: 135px 0px 0px 0px;
+  }
+
+  .clients__descr {
+    margin-bottom: 58px;
+  }
+
+  .clients__logo_2,
+  .clients__logo_6 {
+    border-right: none;
+  }
+
+  .clients__logo_5,
+  .clients__logo_6 {
+    border-bottom: 1px solid #fff;
+  }
+
+  .clients__logo-link {
+    margin-left: 23%;
+  }
+
+  .clients__more a {
+    margin-left: 23%;
+  }
+
+  .footer {
+    width: 95%;
+    left: -21px;
+    padding-bottom: 32px;
+    border-radius: 0px 135px 0px 0px;
+  }
+
+  .footer__wrapper {
+    flex-direction: column;
+  }
+
+  .footer__intro-descr {
+    text-align: center;
+  }
+
+  .footer__divider {
+    margin: 0;
+    width: 80%;
+  }
+
+  .footer__info {
+    width: 80%;
+    margin-top: 46px;
+    justify-content: flex-end;
+  }
+
+  .footer__info-links ul {
+    width: 84%;
+  }
+
+  .footer__copyright {
+    margin-top: 30px;
+    margin-left: 55px;
+  }
+}

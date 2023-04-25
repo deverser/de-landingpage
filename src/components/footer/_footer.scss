@@ -99,3 +99,44 @@
 		opacity: 0.4;
 	}
 }
+
+@media screen and (max-width: 996px) {
+	.footer {
+		width: 95%;
+		left: -21px;
+		padding-bottom: 32px;
+		border-radius: 0px 135px 0px 0px;
+
+		&__wrapper {
+			flex-direction: column;
+		}
+
+		&__intro {
+			&-descr {
+				text-align: center;
+			}
+		}
+
+		&__divider {
+			margin: 0;
+			width: 80%;
+		}
+
+		&__info {
+			width: 80%;
+			margin-top: 46px;
+			justify-content: flex-end;
+
+			&-links {
+				& ul {
+					width: 84%;
+				}
+			}
+		}
+
+		&__copyright {
+			margin-top: 30px;
+			margin-left: 55px;
+		}
+	}
+}

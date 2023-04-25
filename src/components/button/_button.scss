@@ -28,3 +28,13 @@
 		}
 	}
 }
+
+@media screen and (max-width: 996px) {
+	.button {
+		margin-bottom: 71px;
+
+		&_footer {
+			margin: 46px 0;
+		}
+	}
+}

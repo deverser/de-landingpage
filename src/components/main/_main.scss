@@ -223,3 +223,57 @@ main {
 		}
 	}
 }
+
+@media screen and (max-width: 996px) {
+	main {
+		width: 100%;
+	}
+
+	.promo {
+		&-image {
+			right: 0;
+		}
+
+		&-info {
+			margin-top: 43px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+
+	.services {
+		padding: 105px 212px
+	}
+
+	.clients {
+		height: 1773px;
+		padding-top: 79px;
+		border-radius: 135px 0px 0px 0px;
+
+		&__descr {
+			margin-bottom: 58px;
+		}
+
+		&__logo {
+
+			&_2,
+			&_6 {
+				border-right: none;
+			}
+
+			&_5,
+			&_6 {
+				border-bottom: 1px solid #FFFFFF;
+			}
+
+			&-link {
+				margin-left: 23%;
+			}
+		}
+
+		&__more a {
+			margin-left: 23%;
+		}
+	}
+}

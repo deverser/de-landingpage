@@ -23,3 +23,13 @@
 		}
 	}
 }
+
+@media screen and (max-width: 996px) {
+	.header {
+		&__menu {
+			width: 90%;
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {}
