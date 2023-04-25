@@ -81,6 +81,31 @@ body {
 	}
 }
 
+@media screen and (max-width: 767px) {
+	.container {
+		&_services {
+			gap: 50px;
+		}
+
+		&_clients {
+			grid-template-areas:
+				"title"
+				"descr"
+				"client1"
+				"client2"
+				"client3"
+				"client4"
+				"client5"
+				"client6"
+				"client7"
+				"more";
+			width: 90%;
+			grid-template-columns: 1fr;
+			grid-template-rows: 1fr repeat(9, auto);
+		}
+	}
+}
+
 @import '../components/title/title';
 @import '../components/button/button';
 @import '../components/header/header';

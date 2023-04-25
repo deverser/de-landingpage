@@ -231,6 +231,7 @@ main {
 
 	.promo {
 		&-image {
+			width: 100%;
 			right: 0;
 		}
 
@@ -263,7 +264,8 @@ main {
 			}
 
 			&_5,
-			&_6 {
+			&_6,
+			&_7 {
 				border-bottom: 1px solid #FFFFFF;
 			}
 
@@ -274,6 +276,63 @@ main {
 
 		&__more a {
 			margin-left: 23%;
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.promo {
+		&-info {
+			&__title {
+				width: 100%;
+				font-size: 42px;
+				line-height: 59px;
+				text-align: center;
+			}
+
+			&__descr {
+				width: 85%;
+				text-align: center;
+			}
+		}
+	}
+
+	.services {
+		padding: 0;
+
+		&__card {
+			width: 95%;
+			height: 450px;
+			padding: 0 24px 24px 34px;
+
+			&2 {
+				justify-self: unset;
+			}
+
+			&__descr {
+				font-size: 12px;
+			}
+		}
+	}
+
+	.clients {
+		height: 2156px;
+		margin-top: 53px;
+		padding-top: 49px;
+
+		&__descr {
+			padding: 0 50px;
+			margin-top: 28px;
+			font-size: 12px;
+			margin-bottom: 24px;
+		}
+
+		&__logo {
+			border-right: none;
+
+			&-link {
+				padding: 12px;
+			}
 		}
 	}
 }

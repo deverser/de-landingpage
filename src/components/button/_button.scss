@@ -38,3 +38,16 @@
 		}
 	}
 }
+
+@media screen and (max-width: 767px) {
+	.button {
+		&_promo {
+			margin: 43px 0;
+		}
+
+		&_footer {
+			width: 187px;
+			height: 49px;
+		}
+	}
+}

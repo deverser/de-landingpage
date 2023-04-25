@@ -45,3 +45,27 @@
 		}
 	}
 }
+
+@media screen and (max-width: 767px) {
+	.title {
+		font-size: 26px;
+		line-height: 36px;
+
+		&_card {
+			font-size: 14px;
+			line-height: 20px;
+			text-align: center;
+			width: 80%;
+		}
+
+		&_services {
+			margin-top: 36px;
+			text-align: center;
+		}
+
+		&_footer {
+			width: 55%;
+			font-size: 22px;
+		}
+	}
+}
