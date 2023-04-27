@@ -115,3 +115,15 @@ $border-color_1: #5A98D0;
 .error {
 	color: $color_5;
 }
+
+@media screen and (max-width: 996px) {
+	.modal__content {
+		width: 63%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.modal__content {
+		width: 85%;
+	}
+}

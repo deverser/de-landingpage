@@ -774,6 +774,10 @@ body {
     margin-top: 30px;
     margin-left: 55px;
   }
+
+  .modal__content {
+    width: 63%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -924,5 +928,9 @@ body {
   .footer__copyright {
     font-size: 12px;
     line-height: 18px;
+  }
+
+  .modal__content {
+    width: 85%;
   }
 }
