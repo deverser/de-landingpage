@@ -572,6 +572,7 @@ body {
 }
 
 .input {
+  padding: 21px 42px;
   width: 428px;
   height: 72px;
   opacity: .4;
