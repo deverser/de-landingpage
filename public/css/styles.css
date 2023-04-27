@@ -141,11 +141,6 @@ body {
   background: #356ead;
 }
 
-main {
-  width: 1366px;
-  margin: 0 auto;
-}
-
 .promo {
   min-height: 680px;
   background: linear-gradient(0deg, #98C3E8 -237.16%, rgba(152, 195, 232, 0) 58.12%);
@@ -330,8 +325,10 @@ main {
 }
 
 .clients {
+  margin: 0 auto;
   padding-top: 96px;
   padding-bottom: 125px;
+  width: 1366px;
   height: 1549px;
   border-radius: 200px 0px 0px 0px;
   background: #5a98d0;
