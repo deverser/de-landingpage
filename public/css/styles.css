@@ -932,5 +932,20 @@ body {
 
   .modal__content {
     width: 85%;
+    padding: 29px;
+    height: 737px;
+  }
+
+  .modal__submit {
+    width: 81%;
+    left: 10%;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .name__label {
+    margin-top: 28px;
   }
 }
