@@ -1,6 +1,6 @@
 "use strict"
 
-let modal = document.getElementById("formModal");
+const modal = document.getElementById("formModal");
 
 
 let bodyOverflow = document.body.style.overflow;
@@ -27,7 +27,7 @@ function closeModal() {
 }
 
 
-let popupMsg = document.getElementById("popup");
+const popupMsg = document.getElementById("popup");
 // функция для отображения всплывающего окна
 function showMessage() {
 	popupMsg.style.display = "block";
@@ -52,9 +52,9 @@ function isValidEmail(email) {
 	return emailPattern.test(email);
 }
 
-function submitForm() {
+function submitForm(event) {
 	event.preventDefault();
-	const form = document.getElementById("inputForm");
+
 	// проверяем поле Full Name
 	if (fullName.value.trim() === '') {
 		fullNameError.textContent = 'Введите имя';
@@ -80,7 +80,7 @@ function submitForm() {
 
 	// Если всё ок, отправляем данные
 	if (fullNameError.textContent === '' && emailError.textContent === '' && messageError.textContent === '') {
-		let formData = new FormData(form);
+		const formData = new FormData(form);
 		const xhr = new XMLHttpRequest();
 		xhr.open("POST", "submit.php", true);
 		xhr.onload = function () {
@@ -95,3 +95,6 @@ function submitForm() {
 	}
 
 }
+
+const form = document.getElementById("inputForm");
+form.addEventListener('submit', submitForm);
