@@ -52,9 +52,13 @@ function isValidEmail(email) {
 	return emailPattern.test(email);
 }
 
+function serializeForm(formNode) {
+	console.log(formNode.elements)
+}
+
 function submitForm(event) {
 	event.preventDefault();
-
+	serializeForm(form);
 	// проверяем поле Full Name
 	if (fullName.value.trim() === '') {
 		fullNameError.textContent = 'Введите имя';
