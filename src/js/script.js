@@ -53,7 +53,16 @@ function isValidEmail(email) {
 }
 
 function serializeForm(formNode) {
-	console.log(formNode.elements)
+	const { elements } = formNode;
+	const data = Array.from(elements)
+		.filter((item) => !!item.name)
+		.map((element) => {
+			const { name, value } = element;
+
+			return { name, value };
+		})
+
+	console.log(data);
 }
 
 function submitForm(event) {
